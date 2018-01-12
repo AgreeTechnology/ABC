@@ -13,9 +13,9 @@ We defined three new transaction types for the DB operation, named sqlStatement,
 You can operate the DB or send DB operations to the block chain by the following four ways.
 
 1. RPC API , supplied by the RPC modules.
-2. Web sockets API, developed using javascript and java. Refer to [API in javascript](http://www.chainsql.net/api_javascript.html) and [API in java](http://www.chainsql.net/api_java.html) .
+2. Web sockets API, developed using javascript and java. Refer to [API in javascript](http://www.agree.com.cn/api_javascript.html) and [API in java](http://www.agree.com.cn/api_java.html) .
 3. Commandline, access to the node directly.
-4. By kingshrad, using db's primitive sql clause. Refer to[Access by sql](http://www.chainsql.net/api_mysql.html).
+4. By kingshrad, using db's primitive sql clause. Refer to[Access by sql](http://www.agree.com.cn/api_mysql.html).
 
 The table module send data request to other nodes and sort the tx datas from other nodes, then give the right transaction data to the  sql module. This module also seeks every ledger in local block chain to get the compatible table data to send back to the required nodes.
 
@@ -23,7 +23,7 @@ The sql module analysis transaction data to get the real sql, then operate the D
 
 Further more, storage modules make you check the DB before sending tx data to the block chain, this makes it possible that we can operate DB timely.
 
-If you want to get more infomation about this production ,please access the site [www.chainsql.net](http://www.chainsql.net).
+If you want to get more infomation about this production ,please access the site [www.agree.com.cn](http://www.agree.com.cn).
 
 ## Version
 On updating  our version or  releasing new functions, the [RELEASENOTES](./RELEASENOTES.md) will be updated for the detail description.
